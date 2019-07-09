@@ -8,6 +8,20 @@
   font-size: 4.5rem;
   color: $color-grey-light-1;
   line-height: 1;
+
+  &--responsive {
+    @media only screen and (max-width: $bp-800) {
+      font-size: 5rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    @media only screen and (max-width: $bp-400) {
+      font-size: 4rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+  }
 }
 
 .heading-2 {

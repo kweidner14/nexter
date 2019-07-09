@@ -19,10 +19,10 @@
     cursor: pointer;
 
 
-    //@include respond(tab-port) {
-    //  top: 4rem;
-    //  right: 4rem;
-    //}
+    @media only screen and (max-width: $bp-566) {
+      height: 6rem;
+      width: 6rem;
+    }
     //
     //@include respond(phone) {
     //  top: 3rem;
@@ -41,10 +41,10 @@
     z-index: 20;
     transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
 
-    //@include respond(tab-port) {
-    //  top: 4.5rem;
-    //  right: 4.5rem;
-    //}
+    @media only screen and (max-width: $bp-566) {
+      height: 4rem;
+      width: 4rem;
+    }
     //
     //@include respond(phone) {
     //  top: 3.5rem;
@@ -71,11 +71,16 @@
     list-style: none;
     text-align: center;
     width: 100%;
+
+
   }
 
   &__item {
-
     margin: 1rem;
+
+    @media only screen and (max-width: $bp-566) {
+      padding: 2rem;
+    }
   }
 
   &__link {
@@ -115,6 +120,10 @@
   &__icon {
     position: relative;
     margin-top: 3.5rem;
+
+    @media only screen and (max-width: $bp-566) {
+      margin-top: 2.8rem;
+    }
 
     &,
     &::before,
