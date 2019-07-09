@@ -33,9 +33,7 @@ body {
 .heading-1 {
   font-size: 4.5rem;
   color: #f9f7f6;
-  line-height: 1;
-  padding-top: 2rem;
-  padding-bottom: 2rem; }
+  line-height: 1; }
   @media only screen and (max-width: 50em) {
     .heading-1--responsive {
       font-size: 5rem;
@@ -114,7 +112,7 @@ body {
     @media only screen and (max-width: 40.625em) {
       .header__info {
         margin-bottom: -9rem;
-        padding-bottom: 20rem; } }
+        padding-bottom: 30rem; } }
   .header__logo {
     height: 3rem;
     justify-self: center; }
